@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .vegetables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .vegetable {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .vegetable img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .vegetable p {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .cart {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 10px;
+  }
+  
+  .cart button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  

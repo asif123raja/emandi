@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Distributor</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* style.css */
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 2px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Vegetable Distributor!</h1>
+    </header>
+
+    <main>
+        <section class="vegetables">
+            <h2>Vegetables</h2>
+            <ul>
+                <li>
+                    <img src="images/tomato.jpg" alt="Tomato">
+                    <span>Tomato</span>
+                    <span>$1.99</span>
+                </li>
+                <li>
+                    <img src="images/potato.jpg" alt="Potato">
+                    <span>Potato</span>
+                    <span>$0.99</span>
+                </li>
+                <li>
+                    <img src="images/onion.jpg" alt="Onion">
+                    <span>Onion</span>
+                    <span>$0.79</span>
+                </li>
+                <li>
+                    <img src="images/carrot.jpg" alt="Carrot">
+                    <span>Carrot</span>
+                    <span>$0.69</span>
+                </li>
+                <li>
+                    <img src="images/celery.jpg" alt="Celery">
+                    <span>Celery</span>
+                    <span>$1.49</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="order">
+            <h2>Order Now</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="5" placeholder="Enter your delivery address"></textarea>
+
+                <label for="vegetables">Vegetables:</label>
+                <select id="vegetables" name="vegetables" multiple>
+                    <option value="tomato">Tomato</option>
+                    <option value="potato">Potato</option>
+                    <option value="onion">Onion</option>
+                    <option value="carrot">Carrot</option>
+                    <option value="celery">Celery</option>
+                </select>
+
+                <button type="submit">Order Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Vegetable Distributor</p>
+    </footer>
+</body>
+</html>

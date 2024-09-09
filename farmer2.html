@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Produce</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .products, .sales {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        
+        .products h3, .sales h3 {
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farmer's Produce</h1>
+    </header>
+
+    <main>
+        <h2>Welcome to Farmer's Produce!</h2>
+        <p>We are a local farm that sells fresh, high-quality vegetables to distributors.</p>
+
+        <section class="products">
+            <h3>Available Vegetables</h3>
+            <ul>
+                <li>Carrots: $1.50 per pound</li>
+                <li>Onions: $1.00 per pound</li>
+                <li>Potatoes: $0.75 per pound</li>
+                <li>Tomatoes: $2.00 per pound</li>
+                <li>Lettuce: $1.25 per head</li>
+            </ul>
+        </section>
+
+        <section class="sales">
+            <h3>Recent Sales</h3>
+            <table id="salesTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Distributor</th>
+                        <th>Vegetable</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023-11-21</td>
+                        <td>ABC Distributors</td>
+                        <td>Carrots</td>
+                        <td>10 pounds</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>2023-11-21</td>
+                        <td>XYZ Distributors</td>
+                        <td>Onions</td>
+                        <td>5 pounds</td>
+                        <td>$5.00</td>
+                    </tr>
+                    <tr>
+                        <td>2023-11-20</td>
+                        <td>ABC Distributors</td>
+                        <td>Potatoes</td>
+                        <td>15 pounds</td>
+                        <td>$11.25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <p>For more information or to place an order, please contact us at <a href="mailto:farmer@example.com">farmer@example.com</a>.</p>
+    </main>
+    <script>
+        const salesTable = document.getElementById('salesTable');
+
+for (let i = 0; i < data.length; i++) {
+    const row = salesTable.insertRow();
+    const dateCell = row.insertCell();
+    const distributorCell = row.insertCell();
+    const vegetableCell = row.insertCell();
+    const quantityCell = row.insertCell();
+    const priceCell = row.insertCell();
+
+    dateCell.textContent = data[i].date;
+    distributorCell.textContent = data[i].distributor;
+    vegetableCell.textContent = data[i].vegetable;
+    quantityCell.textContent = data[i].quantity;
+    priceCell.textContent}
+    </script>
+    
+    <footer>
+        <p>&copy; 2023 Farmer's Produce</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

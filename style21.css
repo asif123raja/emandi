@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+    border: border-box;
+}
+nav{
+    display: block;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(9, 66, 40);
+    color: aliceblue;
+    /*display:block;*/
+    align-items: center;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    /*background-image: url("emandi_logo.png");
+    background-size: cover;*/
+    mix-blend-mode:luminosity;
+    border-radius: 15%;
+    height: 60px ;
+    width: 100px ;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid rgb(247, 247, 244);
+    border-radius: 15%;
+}
+.nav_address{
+    margin-left: 3rem;
+}
+.addfirst{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 15px;
+    margin-bottom: 5px;
+
+}
+.add-icon{
+    
+    margin-left: 15px;
+
+}
+.addsec{
+    font-size: 1rem;
+    margin-left: 5px ;
+}
+.nav_search{
+    /*display: flex;*/
+   
+    width: 25rem;
+    height: 30px;
+    border-radius: 15%;
+    margin-left: 17rem;
+    border-radius: 20px;
+}
+.search-icon{
+    font-size: 1.6rem;
+    margin-top: 5px;
+
+}
+.search-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+.nav_kart{
+    font-size: 1.5em;
+    margin-left: 30rem;
+    
+}
